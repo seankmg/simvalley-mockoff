@@ -185,6 +185,16 @@ a:hover{text-decoration: none; cursor:pointer;}
 /* = NavBar
 -------------------------------------------------------------- */
 
+/* Uneven Rounded List Menu Icon */
+.navbar-light .menu-icon-rounded-uneven-list .navbar-toggler-icon{
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='rgba(0, 0, 0, 0.5)' stroke-miterlimit='10' d='M3.5,7A1.5,1.5,0,1,1,2,8.5,1.5,1.5,0,0,1,3.5,7Zm6,0h11a1.5,1.5,0,0,1,0,3H9.5A1.5,1.5,0,0,1,9.5,7Zm0,7h17a1.5,1.5,0,0,1,0,3H9.5A1.5,1.5,0,0,1,9.5,14Zm0,7h11a1.5,1.5,0,0,1,0,3H9.5A1.5,1.5,0,0,1,9.5,21Zm-6-7A1.5,1.5,0,1,1,2,15.5,1.5,1.5,0,0,1,3.5,14Zm0,7A1.5,1.5,0,1,1,2,22.5,1.5,1.5,0,0,1,3.5,21Z'/%3E%3C/svg%3E");
+}
+.navbar-dark .menu-icon-rounded-uneven-list .navbar-toggler-icon{
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='rgba(255, 255, 255, 0.5)' stroke-miterlimit='10' d='M3.5,7A1.5,1.5,0,1,1,2,8.5,1.5,1.5,0,0,1,3.5,7Zm6,0h11a1.5,1.5,0,0,1,0,3H9.5A1.5,1.5,0,0,1,9.5,7Zm0,7h17a1.5,1.5,0,0,1,0,3H9.5A1.5,1.5,0,0,1,9.5,14Zm0,7h11a1.5,1.5,0,0,1,0,3H9.5A1.5,1.5,0,0,1,9.5,21Zm-6-7A1.5,1.5,0,1,1,2,15.5,1.5,1.5,0,0,1,3.5,14Zm0,7A1.5,1.5,0,1,1,2,22.5,1.5,1.5,0,0,1,3.5,21Z'/%3E%3C/svg%3E");
+}
+.navbar-toggle.menu-icon-rounded-uneven-list{
+	margin-top:7px!important;
+}
 /* Handle Multi Level Navigation */
 .dropdown-menu .dropdown-menu{
 	border:none}
@@ -218,6 +228,10 @@ a:hover{text-decoration: none; cursor:pointer;}
 
 .mg-clear{
 	margin:0;
+}
+.mg-sm{
+	margin-top:10px;
+	margin-bottom:5px;
 }
 .mg-md{
 	margin-top:10px;
@@ -255,6 +269,14 @@ button{
 
 .btn-rd{
 	border-radius: 40px;
+}
+.btn-wire{
+	background:transparent!important;
+	border:2px solid transparent;
+}
+.btn-wire:hover{
+	background:transparent!important;
+	border:2px solid transparent;
 }
 .a-block{
 	width:100%;
@@ -448,7 +470,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	max-width:1140px;
 }
 .navbar-brand img{
-	width:250px;
+	width:100px;
 	height:90px;
 }
 .team-card{
@@ -577,6 +599,77 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .h6-12-style{
 	font-size:14px;
 }
+.container-div-style{
+	width:55.95%;
+}
+.container-div-0-style{
+	width:26.23%;
+}
+.img-style{
+	width:5px;
+	height:5px;
+	border-radius:0px 0px 0px 0px;
+}
+.img-2-style{
+	width:5px;
+	height:5px;
+}
+.img-4-style{
+	width:5px;
+	height:5px;
+}
+.label-style{
+	width:100%;
+	font-size:15px;
+}
+.img-35279-style{
+	width:5px;
+	height:5px;
+}
+.h6-bloc-1-style{
+	width:100%;
+	font-size:15px;
+}
+.p-1-bloc-1-style{
+	font-size:15px;
+}
+.row-style{
+	width:37.98%;
+}
+.feature-col-mt{
+	margin-top:29px;
+}
+.hero-first-col-mb{
+	margin-bottom:30px;
+}
+.img-5-style{
+	width:100px;
+	height:90px;
+}
+.h1-style{
+	font-family:"Ubuntu";
+}
+.h4-bloc-2-style{
+	font-size:20px;
+}
+.h3- datenschutz-style{
+	width:100%;
+}
+.p-bloc-11-style{
+	width:71.85%;
+}
+.h3- impressum-style{
+	width:100%;
+}
+.p-30-style{
+	width:80.02%;
+}
+.h4-10-style{
+	font-size:18px;
+}
+.h2-21405-style{
+	font-size:26px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -585,6 +678,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 .bgc-black{
 	background-color:#000000;
+}
+.bgc-cyan-process{
+	background-color:#00A5E3;
 }
 .bgc-white{
 	background-color:#FFFEFE;
@@ -595,14 +691,17 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 /* Text colour styles */
 
+.tc-timberwolf{
+	color:#D8D8D8!important;
+}
 .tc-dark-lava{
 	color:#363636!important;
 }
+.tc-medium-jungle-green{
+	color:#2D2D2D!important;
+}
 .tc-black{
 	color:#000000!important;
-}
-.tc-timberwolf{
-	color:#D8D8D8!important;
 }
 
 /* Button colour styles */
@@ -622,6 +721,18 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .btn-black:hover{
 	background:#000000!important;
 	color:#FFFFFF!important;
+}
+.btn-dark-lava{
+	background:#363636;
+	color:#FFFFFF!important;
+}
+.btn-dark-lava:hover{
+	background:#2b2b2b!important;
+	color:#FFFFFF!important;
+}
+.wire-btn-dark-lava{
+	color:#363636!important;
+	border-color:#363636!important;
 }
 
 /* Link colour styles */
@@ -743,6 +854,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 
 @media (max-width: 767px){
+	.white{
+		background-color:#FEFFFF;
+		color:#FEFFFF!important;
+	}
 	
 	/* Small Text Margin Offsets */
 	.mg-md-sm{
