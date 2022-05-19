@@ -23,6 +23,15 @@
  
 <!-- Analytics END -->
     
+<style>
+	@media (max-width: 767px) {
+	  .hidden-mobile {
+		display: none;
+	  }
+	}
+  </style>
+
+
 </head>
 <body>
 
@@ -43,7 +52,7 @@
 					<div class="container-fluid flex-column">
 						<a class="navbar-brand mx-auto" href="index.html"><img src="img/simvalley_e2.png" alt="logo" /></a>
 						<button id="nav-toggle" type="button" class="ui-navbar-toggler navbar-toggler border-0 p-0 menu-icon-rounded-uneven-list" aria-expanded="false" aria-label="Toggle navigation" data-bs-toggle="collapse" data-bs-target=".navbar-26384">
-							<span class="navbar-toggler-icon"></span>
+							<span><img style="height: 25px; width: 25px;" src="img/navbar_toggler.png"/></span>
 						</button>
 						<div class="collapse navbar-collapse navbar-26384 special-dropdown-nav">
 							<ul class="site-navigation nav navbar-nav mx-auto justify-content-center">
@@ -51,7 +60,7 @@
 									<a href="index.html" class="nav-link ltc-timberwolf">Home</a>
 								</li>
 								<li class="nav-item">
-									<a href="neuste-produkte.html" class="a-btn nav-link ltc-timberwolf">Neuste Produkte</a>
+									<a href="neueste-produkte.html" class="a-btn nav-link ltc-timberwolf">Neueste Produkte</a>
 								</li>
 								<li class="nav-item">
 									<a href="alle-produkte.html" class="a-btn nav-link ltc-timberwolf">Alle Produkte</a>
@@ -70,7 +79,7 @@
 <!-- bloc-0 END -->
 
 <!-- bloc-1 -->
-<div class="bloc bgc-cyan-process tc-timberwolf" id="bloc-1">
+<div class="bloc bgc-cyan-process tc-timberwolf hidden-mobile" id="bloc-1">
 	<div class="container bloc-lg bloc-no-padding-lg" style="margin-bottom: -10px;margin-top: 2px;">
 		<div class="row">
 			<div class="col-md-4 offset-lg-0">
